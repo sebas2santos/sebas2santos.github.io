@@ -1,0 +1,332 @@
+﻿body {
+    background-color: #14213D; /* Cambia esto al color que prefieras */
+    position: relative;
+    display: flex;
+}
+#correo {
+    margin-left: 100px;
+    margin-top: 50px;
+
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+    width: auto;
+    
+}
+#correo1 {
+    
+    
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:20px;
+    border: 3px solid #ccc9c9; /* Cambia esto al color y grosor de borde que prefieras */
+    height: 210px;
+    width: auto;
+    border-radius: 10px;
+}
+
+    #correo button {
+        background-color: transparent;
+        border-radius: 10px;
+        box-shadow: none; /* Esto elimina el relieve del botón */
+        outline: none; /* Esto elimina el contorno que aparece cuando se hace clic en el botón */
+        border: 3px solid #E5E5E5; /* Cambia esto al color y grosor de borde que prefieras */
+        font-size: 15px;
+        font-family: 'Cascadia Code';
+        color: #ccc9c9;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+.principal {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 100px;
+    font-family: 'Cascadia Code';
+    height: auto;
+    padding-top: 40px;
+}
+
+.Bloque_1 {
+    color: #E5E5E5;
+    font-size: 14px;
+    width: 510px;
+    
+
+}
+
+.Sub-presentacion {
+    font-size: 15px;
+    color: #ccc9c9;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#boton {
+    display: flex;
+    align-items: center;
+    color: #ccc9c9;
+    font-family: 'Cascadia Code';
+    font-size: 15px;
+    border: 3px solid black; /* Cambia esto al color y grosor de borde que prefieras */
+    background-color: transparent; /* Esto hace que el botón no tenga color de fondo */
+    box-shadow: none; /* Esto elimina el relieve del botón */
+    outline: none; /* Esto elimina el contorno que aparece cuando se hace clic en el botón */
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+    #boton img {
+        width: 59px; /* Cambia esto al tamaño que prefieras para tus imágenes */
+        height: 43px; /* Cambia esto al tamaño que prefieras para tus imágenes */
+        margin-right: 5px;
+    }
+
+#boton_lin {
+    display: flex;
+    align-items: center;
+    color: #ccc9c9;
+    font-family: 'Cascadia Code';
+    font-size: 15px;
+    border: 3px solid black; /* Cambia esto al color y grosor de borde que prefieras */
+    background-color: transparent; /* Esto hace que el botón no tenga color de fondo */
+    box-shadow: none; /* Esto elimina el relieve del botón */
+    outline: none; /* Esto elimina el contorno que aparece cuando se hace clic en el botón */
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#boton_lin img {
+    width: 38px; /* Cambia esto al tamaño que prefieras para tus imágenes */
+    height: 28px; /* Cambia esto al tamaño que prefieras para tus imágenes */
+    margin-right: 5px;
+    
+    margin: 3px;
+}
+
+#boton_pdf {
+    display: flex;
+    align-items: center;
+    color: #ccc9c9;
+    font-family: 'Cascadia Code';
+    font-size: 15px;
+    border: 3px solid black; /* Cambia esto al color y grosor de borde que prefieras */
+    background-color: transparent; /* Esto hace que el botón no tenga color de fondo */
+    box-shadow: none; /* Esto elimina el relieve del botón */
+    outline: none; /* Esto elimina el contorno que aparece cuando se hace clic en el botón */
+    margin-right: 10px;
+    border-radius: 10px;
+}
+#boton_pdf img {
+    width: 40px; /* Cambia esto al tamaño que prefieras para tus imágenes */
+    height: 30px; /* Cambia esto al tamaño que prefieras para tus imágenes */
+    margin-right: 7px;
+    margin: 2px;
+}
+
+.Tecnologias {
+    color: #ccc9c9;
+    font-family: 'Cascadia Code';
+    font-size: 25px;
+    width: 510px;
+    padding-top: 10px;
+    
+}
+
+
+
+#titulo{
+    padding-left: 10px;
+    font-family: 'Cascadia Code';
+    color: #ccc9c9;
+    font-size: 25px;
+
+}
+
+#texto {
+    padding-left: 15px;
+    font-family: 'Cascadia Code';
+    color: #ccc9c9;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#habilidades{
+    overflow: hidden;
+    width: max-content;
+    color:#ccc9c9;
+    
+}
+
+#fronted{
+    float: left;
+    width: max-content;
+    height:auto;
+    text-align: center;
+    align-items: start;
+    padding-right: 10px;
+
+}
+#fronted img{
+    height:auto;
+    width: 230px;
+}
+
+#backend{
+    float: left;
+    width: max-content;
+    height: auto;
+    padding-left: 15px;
+    text-align:center;
+    align-items: end;
+    border-left: 2px solid #ebdddd;
+    
+}
+
+#backend img {
+    height: auto;
+    width: 230px;
+}
+
+#b-tech{
+    width: max-content;
+    display:flex;
+    flex-direction: column;
+    align-items: end ;
+    
+    
+    
+}
+#f-tech {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.seccion {
+    display: flex;
+    align-items: center; /* Alinea el texto e imagen verticalmente */
+    
+    margin-bottom: 5px; /* Espacio entre las secciones */
+    
+    
+}
+
+#b-tech p{
+    flex: 1;
+    font-size: 15px;
+    
+}
+
+#f-tech p {
+    flex: 1;
+    font-size: 15px;
+}
+
+.imagen {
+    margin-left: auto;
+    flex-shrink: 0;
+    padding-left: 10px;
+
+
+}
+.imagen img{
+    height: 17px;
+    width: auto;
+    
+ 
+}
+
+
+#textocopy{
+    padding-left: 15px;
+}
+
+.lista{
+    font-family: 'Cascadia Code';
+    font-size: 15px;
+    color: #ccc9c9;
+    
+}
+
+.elemento{
+    padding-bottom: 5px;
+    margin-left: 15px;
+    color: #ccc9c9;
+    text-align:justify;
+    line-height:1.5;
+    font-size: 14px;
+}
+
+.extras{
+    font-size: 15px;
+    font-family: 'Cascadia Code';
+    color: #E5E5E5;
+    margin-left: 15px;
+
+}
+.hobbis{
+    margin-left: 150px;
+}
+
+.titulo {
+    font-size: 17px;
+    font-family: 'Cascadia Code';
+    color: #ccc9c9;
+    margin-left: 5px;
+}
+
+.titulo2 {
+    font-size: 20px;
+    font-family: 'Cascadia Code';
+    color: #ccc9c9;
+    
+    margin-top:50px;
+    
+}
+
+.extrass{
+    
+    color: #E5E5E5;
+    font-size: 25px;
+}
+.linea {
+    margin-top: 300px;
+    position: static;
+    top: 50%; /* Puedes ajustar la posición vertical de la línea */
+    left: 0;
+    width: 100%;
+    height: 5px; /* Grosor de la línea */
+    background-color: #8c8f95; /* Color de la línea */
+}
+
+.Experiencia {
+    margin-left:150px;
+}
+
+.Recursos{
+    text-align:justify;
+}
+
+
+
+
+    
+   
+

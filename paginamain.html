@@ -1,0 +1,661 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    
+    <style>
+        .linea {
+            margin-top: 300px;
+            position: static;
+            top: 50%; /* Puedes ajustar la posición vertical de la línea */
+            left: 0;
+            width: 100%;
+            height: 5px; /* Grosor de la línea */
+            background-color: #8c8f95; /* Color de la línea */
+        }
+        body {
+            background-color: #14213D;
+            color: #E5E5E5;
+            font-family: 'Cascadia Code';
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            
+            
+            
+        }
+        
+        .principal {
+            align-items: center;
+            font-size: 15px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 10%;
+            
+            
+            width: 60%;
+        }
+
+        .Bloque_1{
+            align-items: center;
+            align-content: center;
+            
+            
+            
+            margin-left: 10%;
+            
+            
+            width: 90%;
+        }
+
+        .Presentacion{
+            text-align: center;
+        }
+
+        .imagenperfil{
+            width: 50%;
+            height: 65%;
+            padding-right: 10px;
+        }
+
+        
+            
+        
+
+
+
+        
+
+        .foto-texto{
+            
+            display:flex;
+
+        }
+        
+
+        .Sub-presentacion {
+        
+            font-size: 1em;
+            color: #ccc9c9;
+            text-align: justify ;
+            margin-top: 20px;
+            
+
+        }
+        .Sub-presentacion a{
+            color: aqua;
+            text-decoration: none;
+        }
+
+        .botones {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            width: 95%;
+        }
+
+            .botones button {
+                display: flex;
+                align-items: center;
+                color: #ccc9c9;
+                font-size: 1em;
+                border: 3px solid black;
+                background-color: transparent;
+                box-shadow: none;
+                outline: none;
+                border-radius: 10px;
+                padding: 5px 10px;
+                cursor: pointer;
+            }
+
+                .botones button img {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                }
+
+        .Tecnologias {
+            font-size: 1.em;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+            
+        }
+
+        #habilidades {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+            padding-left: 5% ;
+        }
+
+        #fronted,
+        #backend {
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 20px;
+            
+        }
+
+            .b55,
+            .f55 {
+                width: 55%;
+                height: auto;
+                margin-top: 10px;
+                margin-bottom:15px;
+            }
+
+        .seccion {
+            display: flex;
+            
+            
+            margin-bottom: 10px;
+        }
+
+            .seccion p {
+                flex: 1;
+                font-size: 1em;
+            }
+            .seccion img{
+                width: 50%;
+                height: 50%;
+                margin-top: 3%;
+            }
+
+           
+
+        
+        .Recursos {
+            margin-top: 30px;
+            text-align: justify;
+            padding-left: 5%;
+        }
+
+        .lista,
+        .lista ul {
+            list-style: none;
+            padding-left: 5% ;
+            margin: 0;
+        }
+
+            .lista li,
+            .lista ul li {
+                margin-bottom: 10px;
+            }
+
+        .Experiencia {
+            margin-top: 30px;
+            padding-left: 5% ;
+            text-align: justify;
+        }
+
+            .Experiencia .elemento {
+                margin-bottom: 10px;
+            }
+
+        .hobbis {
+            margin-top: 30px;
+        }
+
+            .hobbis .lista,
+            .hobbis .lista ul {
+                list-style: disc;
+                padding-left: 20px;
+            }
+
+        #correo {
+            margin-top: 50px;
+            width: 75vh;
+            padding-left: 30%;
+            align-self: center;
+            
+        }
+        
+
+        #correo1 {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0%;
+            border: 3px solid #ccc9c9;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        
+
+        #correo button {
+            background-color: transparent;
+            border-radius: 10px;
+            box-shadow: none;
+            outline: none;
+            border: 3px solid #E5E5E5;
+            font-size: 1em;
+            color: #ccc9c9;
+            padding: 10px 20px;
+            margin-top: 2%;
+            cursor: pointer;
+        }
+
+        
+        @media screen and (max-width:700px) {
+            .body{
+                width: 85vh;
+                align-items: center;
+                
+                
+            }
+            .Bloque_1,
+            .principal{
+                margin-top: 7%;
+                width: 45vh;
+                font-size: 11px;
+                align-items: center;
+                align-content: center;
+                margin-left: 4%;
+                
+                
+                padding-left: 10%;
+            }
+
+            
+
+            .Bloque_1{
+                margin-left: 0%;
+                padding-left: 10%;
+            }
+            
+            .Presentacion{
+                font-size: 1.4em;
+            }
+            .botones{
+                width: 35vh;
+                align-items: center;
+                
+                padding-left: 15%;
+                
+                
+            }
+
+            #correo{
+                width: 45vh;
+            }
+            .foto-texto{
+                
+                display: flex;
+                margin-left: 0;
+                
+                
+            }
+
+            .Sub-presentacion{
+
+                width: 53%;
+                font-size: 0.8em;
+
+            }
+            .hobbis,
+            .Tecnologias,
+            .Recursos,
+            .Experiencia{
+                width: 37vh;
+                padding-left: 3%;
+            }
+            .imagenperfil{
+                width: 40%;
+                height: 55%;
+                padding-right: 5px;
+            }
+
+            
+
+        } 
+    </style>
+</head>
+<body>
+
+    <div class="principal">
+        <div class="Bloque_1">
+            <h1 class="Presentacion">Hola, mi nombre es Sebastian Dos Santos!!</h1>
+    
+            <div class="foto-texto">
+                <img class="imagenperfil" src="foto.png" alt="foto">
+                <p class="Sub-presentacion">
+                    Soy un programador apasionado por el backend, aunque tampoco me disgusta el frontend y el diseño de páginas. Siempre estoy en busca de nuevos retos.
+                    Me encanta el trabajo en equipo y conocer el punto de vista de los demás, ya que considero que en este mundillo es bueno tener la opinión de otras personas.
+    
+                    En esta página web se pueden encontrar secciones como <a href="#secc1">las tecnologías que domino</a>, donde las he utilizado,
+                    el estado de mis proyectos y también se puede encontrar una zona <a href="#experiencia">experiencias laborales y estudios</a>,
+                    y por último, pero no menos importante, <a href="#metas">mis metas y hobbies.</a>
+                    Aquí abajo se encuentran mis redes profesionales y mi CV:
+                </p>
+            </div>
+        </div>
+    
+        <div class="botones">
+            <button id="boton">
+                <img src="github.png" alt="Imagen 1">
+                <span>Git Hub</span>
+            </button>
+            <script>
+                document.getElementById('boton').addEventListener('click', function () {
+                    window.location.href = 'https://github.com/sebas2santos?tab=repositories';
+                });
+            </script>
+    
+            <button id="boton_lin">
+                <img src="R.png" alt="Imagen 2">
+                <span>Linkendlin</span>
+            </button>
+            <script>
+                document.getElementById('boton_lin').addEventListener('click', function () {
+                    window.location.href = 'https://www.linkedin.com/in/sebastian-dos-santos-alibrandi-511116270/';
+                });
+            </script>
+    
+            <button id="boton_pdf">
+                <img src="p.png" alt="Imagen 3">
+                <span>Mi CV</span>
+            </button>
+            <script>
+                document.getElementById('boton_pdf').addEventListener('click', function () {
+                    var rutaPDF = 'Sebastian_Dos_Santos_Alibrandi .pdf';
+                    window.open(rutaPDF, '_blank');
+                });
+            </script>
+        </div>
+    
+        <div class="linea"></div>
+    
+        <h1 class="Tecnologias" id="secc1">Tecnologías que manejo y cómo las manejo:</h1>
+    
+        <div id="habilidades">
+            <div id="fronted">
+                <h2 class="Fronted">Frontend</h2>
+                <img class="f55" src="55.png" alt="porcentaje" />
+                <div id="f-tech">
+                    <div class="seccion">
+                        <p>HTML5 y CSS3</p>
+                        <img class="imagen" src="95.png" alt="java" />
+                    </div>
+    
+                    <div class="seccion">
+                        <p>JavaScript</p>
+                        <img class="imagen" src="55.png" alt="JS" />
+                    </div>
+    
+                    <div class="seccion">
+                        <p>Diseño de interfaces</p>
+                        <img class="imagen" src="65.png" alt="JS" />
+                    </div>
+    
+                    <div class="seccion">
+                        <p>XML (uso en Android)</p>
+                        <img class="imagen" src="70.png" alt="APIS" />
+                    </div>
+                </div>
+            </div>
+    
+            <div id="backend">
+                <h2 class="Backend">Backend</h2>
+                <img class="b55" src="70.png" alt="porcentaje" />
+                <div id="b-tech">
+                    <div class="seccion">
+                        <p>Java</p>
+                        <img class="imagen" src="65.png" alt="java" />
+                    </div>
+    
+                    <div class="seccion">
+                        <p>Python</p>
+                        <img class="imagen" src="40.png" alt="python" />
+                    </div>
+    
+                    <div class="seccion">
+                        <p>Android</p>
+                        <img class="imagen" src="60.png" alt="Android" />
+                    </div>
+    
+                    <div class="seccion">
+                        <p>APIs</p>
+                        <img class="imagen" src="40.png" alt="APIS" />
+                    </div>
+    
+                    <div class="seccion">
+                        <p>SQL</p>
+                        <img class="imagen" src="70.png" alt="APIS" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="Recursos">
+            <h1 class="extrass"> ¿Dónde he usado esos conocimientos?</h1>
+    
+            <dl class="lista">
+                <dt class="titulo"><b>Frontend:</b></dt>
+                <dd>
+                    <ul>
+                        <li class="elemento">
+                            <b>El uso de HTML y CSS:</b> Además de la elaboración de este currículum, en el grado superior fui partícipe
+                            de la creación de varias páginas web como por ejemplo: Web para la presentación del grupo,
+                            Web que fue resultado de la conversión de un XML, proyecto de creación de web para el uso de JavaScript.
+                            Esta tenía un diseño más primitivo ya que su enfoque era la programación en JS.
+                        </li>
+    
+                        <li class="elemento">
+                            <b>Uso de JavaScript:</b> Además de la elaboración del currículum, lo he utilizado para proyectos personales aún no culminados,
+                            que dentro de nada estarán subidos en el GitHub.
+                            Creación de programas muy sencillos, más que todo para asignaturas del grado superior.
+                        </li>
+    
+                        <li class="elemento">
+                            <b>Diseño de interfaces:</b> En esta parte se trata más del diseño de interfaces para aplicaciones de escritorio y móviles.
+                            Las cuales, además de haber sido utilizadas para propósitos académicos, se han realizado por proyecto personal y laboral.
+                            Se han diseñado a través de XML para su uso en Android, Jframe para la interfaz de aplicaciones de escritorio,
+                            JFX se usó más que todo provisionalmente ya que dio demasiados errores y aún no tengo dominio suficiente
+                            para poder decir que se ha usado de manera correcta.
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+    
+            <dl class="lista">
+                <dt class="titulo">Backend:</dt>
+                <dd>
+                    <ul>
+                        <li class="elemento">
+                            <b>Java y APIs:</b> El lenguaje de Java lo tengo muy conocido, más que todo para
+                            programas orientados a objetos y proyectos sobre todo con una aplicación empresarial. Las APIs las he usado en Spring
+                            para un proyecto académico cuyo enfoque era conocer la implementación de una API y el mapeo ORM, en este mismo
+                            he utilizado también Hibernate en su elaboración.
+                        </li>
+    
+                        <li class="elemento">
+                            <b>SQL:</b> Este lenguaje lo he usado en distintas aplicaciones, una para programar una base de datos
+                            en <b>Workbench</b>, también de manera más local he usado <b>Apache Derby</b> y probado con <b>SQLite</b>, pero
+                            considero que tengo conocimiento sobre SQL, ya que lo he usado para la persistencia de datos de varias aplicaciones,
+                            tanto móviles como de escritorio, y además lo he usado para administrar un servidor de bases de datos como proyecto académico,
+                            creando vistas y controles para los distintos usuarios que pudieran entrar.
+                        </li>
+    
+                        <li class="elemento">
+                            <b>Python:</b> En el ámbito académico no lo he usado mucho, además de automatización de hilos y procesos,
+                            pero en el ámbito laboral lo he trabajado más por la creación de bots para la valoración de viviendas tomando datos de distintas páginas
+                            web. Esto se realizó usando Selenium y los distintos drivers para los diferentes navegadores, lo que también llevó una comprensión
+                            de la manera en que estaba diseñada la página.
+                        </li>
+    
+                        <li class="elemento">
+                            <b>Android:</b> Lo he usado más que todo para proyectos personales por la curiosidad que da la combinación de Java y XML.
+                            Esto me llevó a realizar un reproductor de música tomando archivos del móvil del usuario y así pudiendo comprender su funcionamiento.
+                            También he realizado una conexión con bases de datos, pero esto fue más una prueba.
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+    
+        <div class="linea"></div>
+    
+        <div class="Experiencia" id="experiencia">
+            <h1 class="extrass">
+                Experiencia laboral y académica.
+            </h1>
+            <h1 class="extrass">City Malaga</h1>
+            <p class="elemento">
+                Prácticas del grado.<br />
+                En el cual fui el creador y organizador de todo el funcionamiento de todos los equipos informáticos, al igual que la elaboración
+                e investigación de programas para mejorar la efectividad de la empresa. En los cuales estuve en contacto con dueños de otras empresas
+                por temas de relaciones empresariales a los cuales también presté apoyo o exigí en caso de que el recurso fuera dado por ellos.
+                <ul class="lista">
+                    <li class="elemento" type="square">
+                        Elaboración de programa de contabilidad personalizado <br />
+                        y de uso exclusivo para esta empresa.
+                    </li>
+                    <li class="elemento" type="square">Configuración y recomendación de ERP-CRM</li>
+                    <li class="elemento" type="square">Inspección y recomendación de mejoras para la página web.</li>
+                    <li class="elemento" type="square">
+                        Mantenimiento y solución de problemas de sistemas y equipos informáticos <br />
+                        tanto hardware como software.
+                    </li>
+                    <li class="elemento" typeof="square">Resolución de problemas de manera remota  y de manera no invasiva.</li>
+                    <li class="elemento" typeof="square">Enseñanza y reparto de documentación fácil de comprender.</li>
+                    <li class="elemento" typeof="square">Creación de espacios de almacenamiento con los cuales la empresa no contaba</li>
+                    <li class="elemento" typeof="square">Creación de espacios de coordinación con los cuales la empresa no contaba</li>
+                </ul>
+            </p>
+            <h1 class="extrass">AlquiloFacil Torremolinos</h1>
+            <p class="elemento">
+                2021 - 2023<br />
+                Trabajo en el cual mi función principal fue el mantenimiento de los equipos que se encontraban en la oficina, tanto
+                lo obtenido por la franquicia como lo dado por la sede principal, con la cual tuve contacto para consultar y exigir la resolución de problemas
+                con los recursos dados por la misma. Esto engloba tanto hardware como software.
+                <ul class="lista">
+                    <li class="elemento" typeof="square">Actualización  y resolución de problemas en los distintos programas.</li>
+                    <li class="elemento" typeof="square">Inspección y reclamación en la llegada de recursos nuevos.</li>
+                    <li class="elemento" typeof="square">Resolución de problemas de manera remota  y de manera no invasiva.</li>
+                    <li class="elemento" typeof="square">Enseñanza y reparto de documentación fácil de comprender.</li>
+                    <li class="elemento" typeof="square">Creación de espacios de almacenamiento con los cuales la empresa no contaba</li>
+                    <li class="elemento" typeof="square">Creación de espacios de coordinación con los cuales la empresa no contaba</li>
+                </ul>
+            </p>
+    
+            <h1 class="extrass">Formación Académica:</h1>
+            <p class="elemento">
+                <ul class="lista">
+                    <li class="elemento" typeof="square">Grado Superior en Desarrollo de aplicaciones Multiplataforma. 2022-2024</li>
+                    <li class="elemento" typeof="square">Bachillerato 2019-2021</li>
+                </ul>
+            </p>
+    
+            <h1 class="titulo">Cursos Extracurriculares.</h1>
+            <p class="elemento">
+                <ul class="lista">
+                    <li class="elemento" typeof="square">Curso de PHP en Sololearn Diciembre 2022 - Enero 2023</li>
+                    <li class="elemento" typeof="square">Curso de Java  Avanzado SoloLearn Julio 2023 - Septiembre 2023</li>
+                    <li class="elemento" typeof="square">Curso de JavaScript Agosto 2023 - Actualmente</li>
+                </ul>
+            </p>
+        </div>
+    
+        <div class="linea"></div>
+    
+        <div class="hobbis" id="metas">
+            <h1 class="Tecnologias">Hobbies y extras:</h1>
+            <p class="elemento">
+                Además de todo lo profesional, me gusta el mundillo de la informática ya que gracias a mi afición
+                por los videojuegos siempre he buscado más, lo que me ha llevado a involucrarme en la creación de modificaciones
+                y por lo tanto entender cómo era su funcionamiento y en qué lenguaje se encontraba.
+                Al terminar bachillerato se me planteó qué hacer y mi primera opción fue realizar un grado superior
+                en lo que más me ha llamado la atención. El ser programador no es un trabajo muy conocido y no muy querido por todos por
+                dificultad y las horas que lleva. Pero al final para mí es más un reto y una pasión ver lo creado y saber que todo lo que se
+                puede imaginar se puede programar.
+            </p>
+    
+            <h1 class="extrass">Hobbies</h1>
+    
+            <ul class="lista">
+                <li class="elemento" type="disc">Escuchar música.</li>
+                <li class="elemento" type="disc">Leer.</li>
+                <li class="elemento" type="disc">Jugar videojuegos.</li>
+                <li class="elemento" type="disc">Ajedrez.</li>
+            </ul>
+    
+            <h1 class="extrass">Metas</h1>
+            <dl class="metas">
+                <dt class="titulo">Profesionales.</dt>
+                <dd class="extras">
+                    <ol>
+                        <li class="elemento" value="1">Desarrollador Intermedio.</li>
+                        <li class="elemento">Desarrollador Senior.</li>
+                        <li class="elemento">Arquitecto de software.</li>
+                    </ol>
+                </dd>
+            </dl>
+            <dl class="metas">
+                <dt class="titulo">
+                    Personales.
+                </dt>
+                <dd class="extras">
+                    <ol>
+                        <li class="elemento" value="1">
+                            Dominar Java en todos sus aspectos <br />
+                            Tanto en la parte ordenador como la móvil.
+                        </li>
+                        <li class="elemento">Conocer más de frontend y JavaScript.</li>
+                        <li class="elemento">Conocer más sobre diferentes APIs. </li>
+                    </ol>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    
+
+
+        </div>
+        <div id="correo">
+            <div id="correo1">
+                
+                <div id="texto">
+                    <h1 id="titulo">Contacto</h1>
+                    <p id="textocopy">sdossantosalibrandi@gmail.com <button type="button" onclick="copyToClipBoard()">Copiar</button></p>
+            <script>
+                function copyToClipBoard() {
+                    var content = document.getElementById('textocopy');
+
+                    // Obtener el texto antes de la palabra "Copiar"
+                    var textBeforeCopy = content.innerText.split('Copiar')[0].trim();
+
+                    // Crear un elemento de texto temporal y seleccionarlo
+                    var tempElement = document.createElement('textarea');
+                    tempElement.value = textBeforeCopy;
+                    document.body.appendChild(tempElement);
+                    tempElement.select();
+
+                    // Copiar el texto al portapapeles
+                    document.execCommand('copy');
+
+                    // Eliminar el elemento temporal
+                    document.body.removeChild(tempElement);
+
+                    alert('Correo copiado: ' + textBeforeCopy);
+                }
+            </script>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+
+
+    
+
+</body>
+</html>
